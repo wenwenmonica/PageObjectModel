@@ -1,0 +1,4 @@
+com/crm/qa/testcases/LoginPageTest.class
+com/crm/qa/testcases/UserHomePageTest.class
+com/crm/qa/testcases/OfficialUserHomePageTest.class
+com/crm/qa/testcases/ContactsPageTest.class

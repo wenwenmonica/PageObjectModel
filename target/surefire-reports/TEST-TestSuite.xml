@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="16" failures="3" name="TestSuite" time="37.493" errors="0" skipped="0">
+  <properties>
+    <property name="JOB_NAME" value="FreeCRMTestJob"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="PWD" value="/Users/wenwenyang/personalProject/Jenkins"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/Users/wenwenyang/.jenkins"/>
+    <property name="PATH" value="/Users/wenwenyang/.nvm/versions/node/v12.16.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="799b4e89b8792a9f"/>
+    <property name="NVM_DIR" value="/Users/wenwenyang/.nvm"/>
+    <property name="POM_ARTIFACTID" value="FreeCRMTest"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="TERM_PROGRAM" value="Apple_Terminal"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="TERM_SESSION_ID" value="94017922-5020-4A82-98AF-F96EB35A3140"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="FreeCRMTest"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="11.0.7+8-LTS"/>
+    <property name="NVM_BIN" value="/Users/wenwenyang/.nvm/versions/node/v12.16.3/bin"/>
+    <property name="NVM_INC" value="/Users/wenwenyang/.nvm/versions/node/v12.16.3/include/node"/>
+    <property name="user.name" value="wenwenyang"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="FreeCRMTestJob"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTestJob/2/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#2"/>
+    <property name="TMPDIR" value="/var/folders/pg/q_tfq__s1fs918dc5cm4bh6w0000gn/T/"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.7.jdk/Contents/Home/lib"/>
+    <property name="JAVA_MAIN_CLASS_9116" value="Main"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.version" value="11.0.7"/>
+    <property name="XPC_FLAGS" value="0x0"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="TERM" value="xterm-256color"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="BUILD_ID" value="2"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="maven.conf" value="/Users/wenwenyang/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/conf"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.7.jdk/Contents/Home"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.15.4"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTestJob/2/display/redirect"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="11.0.7+8-LTS"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTestJob/display/redirect"/>
+    <property name="SHLVL" value="1"/>
+    <property name="_" value="/usr/bin/java"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk-11.0.7.jdk/Contents/Home"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="LOGNAME" value="wenwenyang"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="HOME" value="/Users/wenwenyang"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="POM_GROUPID" value="FreeCRMTestAutomation"/>
+    <property name="user.home" value="/Users/wenwenyang"/>
+    <property name="BUILD_TAG" value="jenkins-FreeCRMTestJob-2"/>
+    <property name="JENKINS_SERVER_COOKIE" value="799b4e89b8792a9f"/>
+    <property name="XPC_SERVICE_NAME" value="0"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="NVM_CD_FLAGS" value=""/>
+    <property name="java.library.path" value="/Users/wenwenyang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="/Users/wenwenyang/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Users/wenwenyang/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven /Users/wenwenyang/.jenkins/war/WEB-INF/lib/remoting-4.3.jar /Users/wenwenyang/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar /Users/wenwenyang/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar 55702"/>
+    <property name="java.class.path" value="/Users/wenwenyang/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.13.jar:/Users/wenwenyang/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/boot/plexus-classworlds-2.6.0.jar:/Users/wenwenyang/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/conf/logging"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="M2_HOME" value="/Users/wenwenyang/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.io.tmpdir" value="/var/folders/pg/q_tfq__s1fs918dc5cm4bh6w0000gn/T/"/>
+    <property name="HUDSON_HOME" value="/Users/wenwenyang/.jenkins"/>
+    <property name="PATH+MAVEN" value="/Users/wenwenyang/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/bin"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="OLDPWD" value="/Users/wenwenyang/personalProject"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/FreeCRMTestJob/2/"/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.fQRNGf35Ve/Listeners"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0"/>
+    <property name="user.dir" value="/Users/wenwenyang/IdeaProjects/FreeCRMTest"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/FreeCRMTestJob/"/>
+    <property name="MAVEN_HOME" value="/Users/wenwenyang/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="2"/>
+    <property name="TERM_PROGRAM_VERSION" value="433"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="LANG" value="en_US.UTF-8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="maven3.interceptor" value="/Users/wenwenyang/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="/Users/wenwenyang/.jenkins/workspace/FreeCRMTestJob@tmp"/>
+    <property name="WORKSPACE" value="/Users/wenwenyang/.jenkins/workspace/FreeCRMTestJob"/>
+    <property name="maven3.interceptor.common" value="/Users/wenwenyang/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="USER" value="wenwenyang"/>
+  </properties>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="openCreateNewContactsPageTest" time="0.925"/>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="verifyContactsLabel" time="1.602">
+    <failure message="invalid selector: Unable to locate an element with the xpath expression //div[@class=&apos;ui header item mb5 light-black&apos;]/div[1]/following::text()[contains(.,&apos;Contacts&apos;).text] because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//div[@class=&apos;ui header item mb5 light-black&apos;]/div[1]/following::text()[contains(.,&apos;Contacts&apos;).text]&apos; is not a valid XPath expression.
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;wenwens-macbook.lan&apos;, ip: &apos;fe80:0:0:0:c93:7e87:a962:22b%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.4&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: /var/folders/pg/q_tfq__s1fs...}, goog:chromeOptions: {debuggerAddress: localhost:55829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 35254de252ab7d49ac66f8028f0bd64a
+*** Element info: {Using=xpath, value=//div[@class=&apos;ui header item mb5 light-black&apos;]/div[1]/following::text()[contains(.,&apos;Contacts&apos;).text]}" type="org.openqa.selenium.InvalidSelectorException">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[@class=&apos;ui header item mb5 light-black&apos;]/div[1]/following::text()[contains(.,&apos;Contacts&apos;).text] because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//div[@class=&apos;ui header item mb5 light-black&apos;]/div[1]/following::text()[contains(.,&apos;Contacts&apos;).text]&apos; is not a valid XPath expression.
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;wenwens-macbook.lan&apos;, ip: &apos;fe80:0:0:0:c93:7e87:a962:22b%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.4&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: /var/folders/pg/q_tfq__s1fs...}, goog:chromeOptions: {debuggerAddress: localhost:55829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 35254de252ab7d49ac66f8028f0bd64a
+*** Element info: {Using=xpath, value=//div[@class=&apos;ui header item mb5 light-black&apos;]/div[1]/following::text()[contains(.,&apos;Contacts&apos;).text]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
+	at com.crm.qa.pages.ContactsPage.verifyContactsLabel(ContactsPage.java:42)
+	at com.crm.qa.testcases.ContactsPageTest.verifyContactsLabel(ContactsPageTest.java:37)
+</failure>
+    <system-out>Before navigating to: &apos;https://www.freecrm.com&apos;
+Navigated to:&apos;https://www.freecrm.com&apos;
+Trying to find Element By : By.xpath: //span[contains(text(), &apos;Log In&apos;)]
+Found Element By : By.xpath: //span[contains(text(), &apos;Log In&apos;)]
+Trying to click on: [[ChromeDriver: chrome on MAC (35254de252ab7d49ac66f8028f0bd64a)] -&gt; xpath: //span[contains(text(), &apos;Log In&apos;)]]
+Clicked on: [[ChromeDriver: chrome on MAC (35254de252ab7d49ac66f8028f0bd64a)] -&gt; xpath: //span[contains(text(), &apos;Log In&apos;)]]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //div[contains(text(), &apos;Login&apos;)]
+Found Element By : By.xpath: //div[contains(text(), &apos;Login&apos;)]
+Trying to click on: [[ChromeDriver: chrome on MAC (35254de252ab7d49ac66f8028f0bd64a)] -&gt; xpath: //div[contains(text(), &apos;Login&apos;)]]
+Clicked on: [[ChromeDriver: chrome on MAC (35254de252ab7d49ac66f8028f0bd64a)] -&gt; xpath: //div[contains(text(), &apos;Login&apos;)]]
+Trying to find Element By : By.xpath: //span[contains(text(), &apos;Contacts&apos;)]
+Found Element By : By.xpath: //span[contains(text(), &apos;Contacts&apos;)]
+Trying to click on: [[ChromeDriver: chrome on MAC (35254de252ab7d49ac66f8028f0bd64a)] -&gt; xpath: //span[contains(text(), &apos;Contacts&apos;)]]
+Clicked on: [[ChromeDriver: chrome on MAC (35254de252ab7d49ac66f8028f0bd64a)] -&gt; xpath: //span[contains(text(), &apos;Contacts&apos;)]]
+Trying to find Element By : By.xpath: //div[@class=&apos;ui header item mb5 light-black&apos;]/div[1]/following::text()[contains(.,&apos;Contacts&apos;).text]
+Exception occured: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[@class=&apos;ui header item mb5 light-black&apos;]/div[1]/following::text()[contains(.,&apos;Contacts&apos;).text] because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//div[@class=&apos;ui header item mb5 light-black&apos;]/div[1]/following::text()[contains(.,&apos;Contacts&apos;).text]&apos; is not a valid XPath expression.
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;wenwens-macbook.lan&apos;, ip: &apos;fe80:0:0:0:c93:7e87:a962:22b%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.4&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: /var/folders/pg/q_tfq__s1fs...}, goog:chromeOptions: {debuggerAddress: localhost:55829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 35254de252ab7d49ac66f8028f0bd64a
+*** Element info: {Using=xpath, value=//div[@class=&apos;ui header item mb5 light-black&apos;]/div[1]/following::text()[contains(.,&apos;Contacts&apos;).text]}
+</system-out>
+    <system-err>Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 27837
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 20, 2020 10:02:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1590037325.191][SEVERE]: Timed out receiving message from renderer: 0.100
+</system-err>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="loginPageTitleTest" time="0.153">
+    <failure message="expected [Cogmento CRM] but found [Free CRM #1 cloud software for any business large or small]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Cogmento CRM] but found [Free CRM #1 cloud software for any business large or small]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.crm.qa.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:27)
+</failure>
+    <system-out>Before navigating to: &apos;https://www.freecrm.com&apos;
+Navigated to:&apos;https://www.freecrm.com&apos;
+</system-out>
+    <system-err>Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 26533
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 20, 2020 10:02:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1590037336.888][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590037336.994][SEVERE]: Timed out receiving message from renderer: 0.100
+</system-err>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.OfficialUserHomePageTest" name="officialHomePageTestTitleTest" time="0.324"/>
+  <testcase classname="com.crm.qa.testcases.UserHomePageTest" name="verifyUserHomePageTitleTest" time="0.009"/>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="selectContactsTest" time="0.396"/>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="loginTest" time="11.086">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;email&apos;]&quot;}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;wenwens-macbook.lan&apos;, ip: &apos;fe80:0:0:0:c93:7e87:a962:22b%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.4&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: /var/folders/pg/q_tfq__s1fs...}, goog:chromeOptions: {debuggerAddress: localhost:56086}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9d863fbdfc2b53ed58973c7c3a225943
+*** Element info: {Using=name, value=email}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;email&apos;]&quot;}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;wenwens-macbook.lan&apos;, ip: &apos;fe80:0:0:0:c93:7e87:a962:22b%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.4&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: /var/folders/pg/q_tfq__s1fs...}, goog:chromeOptions: {debuggerAddress: localhost:56086}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9d863fbdfc2b53ed58973c7c3a225943
+*** Element info: {Using=name, value=email}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.sendKeys(Unknown Source)
+	at com.crm.qa.pages.LoginPage.login(LoginPage.java:30)
+	at com.crm.qa.testcases.LoginPageTest.loginTest(LoginPageTest.java:32)
+</failure>
+    <system-out>Before navigating to: &apos;https://www.freecrm.com&apos;
+Navigated to:&apos;https://www.freecrm.com&apos;
+Trying to find Element By : By.name: email
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;email&apos;]&quot;}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;wenwens-macbook.lan&apos;, ip: &apos;fe80:0:0:0:c93:7e87:a962:22b%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.4&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: /var/folders/pg/q_tfq__s1fs...}, goog:chromeOptions: {debuggerAddress: localhost:56086}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9d863fbdfc2b53ed58973c7c3a225943
+*** Element info: {Using=name, value=email}
+</system-out>
+    <system-err>Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 8302
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 20, 2020 10:02:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.OfficialUserHomePageTest" name="logoImageTest" time="0.247"/>
+  <testcase classname="com.crm.qa.testcases.UserHomePageTest" name="verifyCorrectUserNameTest" time="1.407"/>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="selectMultipleContactsTest" time="0.664"/>
+  <testcase classname="com.crm.qa.testcases.OfficialUserHomePageTest" name="clickLogin" time="0.429"/>
+  <testcase classname="com.crm.qa.testcases.UserHomePageTest" name="verifyContactsLinkTest" time="2.79"/>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="validateCreateNewContactTest" time="3.523"/>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="validateCreateNewContactTest" time="5.037"/>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="validateCreateNewContactTest" time="5.348"/>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="validateCreateNewContactTest" time="3.553"/>
+</testsuite>

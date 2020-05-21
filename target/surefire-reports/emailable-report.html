@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Command line test</td><td class="numi">13</td><td class="numi">13</td><td class="numi">0</td><td class="numi_attn">3</td><td class="numi">216.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Command line test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.crm.qa.testcases.ContactsPageTest</td><td><a href="#m1"><b>verifyContactsLabel</b>  </a></td><td class="numi">1</td><td>1590037331833</td><td class="numi">1597</td></tr>
+<tr class="failedeven"><td rowspan="2">com.crm.qa.testcases.LoginPageTest</td><td><a href="#m2"><b>loginPageTitleTest</b>  </a></td><td class="numi">1</td><td>1590037338376</td><td class="numi">152</td></tr><tr class="failedeven"><td><a href="#m3"><b>loginTest</b>  </a></td><td class="numi">1</td><td>1590037366584</td><td class="numi">11082</td></tr>
+<tr><th colspan="4">Command line test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.crm.qa.testcases.ContactsPageTest</td><td><a href="#m4"><b>openCreateNewContactsPageTest</b>  </a></td><td class="numi">1</td><td>1590037321186</td><td class="numi">921</td></tr>
+<tr class="passedeven"><td rowspan="1">com.crm.qa.testcases.OfficialUserHomePageTest</td><td><a href="#m5"><b>officialHomePageTestTitleTest</b>  </a></td><td class="numi">1</td><td>1590037342706</td><td class="numi">324</td></tr>
+<tr class="passedodd"><td rowspan="1">com.crm.qa.testcases.UserHomePageTest</td><td><a href="#m6"><b>verifyUserHomePageTitleTest</b>  </a></td><td class="numi">1</td><td>1590037351709</td><td class="numi">10</td></tr>
+<tr class="passedeven"><td rowspan="1">com.crm.qa.testcases.ContactsPageTest</td><td><a href="#m7"><b>selectContactsTest</b>  </a></td><td class="numi">1</td><td>1590037361238</td><td class="numi">396</td></tr>
+<tr class="passedodd"><td rowspan="1">com.crm.qa.testcases.OfficialUserHomePageTest</td><td><a href="#m8"><b>logoImageTest</b>  </a></td><td class="numi">1</td><td>1590037382598</td><td class="numi">248</td></tr>
+<tr class="passedeven"><td rowspan="1">com.crm.qa.testcases.UserHomePageTest</td><td><a href="#m9"><b>verifyCorrectUserNameTest</b>  </a></td><td class="numi">1</td><td>1590037390266</td><td class="numi">1407</td></tr>
+<tr class="passedodd"><td rowspan="1">com.crm.qa.testcases.ContactsPageTest</td><td><a href="#m10"><b>selectMultipleContactsTest</b>  </a></td><td class="numi">1</td><td>1590037405230</td><td class="numi">666</td></tr>
+<tr class="passedeven"><td rowspan="1">com.crm.qa.testcases.OfficialUserHomePageTest</td><td><a href="#m11"><b>clickLogin</b>  </a></td><td class="numi">1</td><td>1590037412031</td><td class="numi">429</td></tr>
+<tr class="passedodd"><td rowspan="1">com.crm.qa.testcases.UserHomePageTest</td><td><a href="#m12"><b>verifyContactsLinkTest</b>  </a></td><td class="numi">1</td><td>1590037422954</td><td class="numi">2790</td></tr>
+<tr class="passedeven"><td rowspan="4">com.crm.qa.testcases.ContactsPageTest</td><td><a href="#m13"><b>validateCreateNewContactTest</b>  </a></td><td class="numi">4</td><td>1590037440328</td><td class="numi">68649</td></tr><tr class="passedeven"><td><a href="#m14"><b>validateCreateNewContactTest</b>  </a></td><td class="numi">4</td><td>1590037440328</td><td class="numi">68649</td></tr><tr class="passedeven"><td><a href="#m15"><b>validateCreateNewContactTest</b>  </a></td><td class="numi">4</td><td>1590037440328</td><td class="numi">68649</td></tr><tr class="passedeven"><td><a href="#m16"><b>validateCreateNewContactTest</b>  </a></td><td class="numi">4</td><td>1590037440328</td><td class="numi">68649</td></tr>
+</table>
+<h1>Command line test</h1>
+<h2 id="m1">com.crm.qa.testcases.ContactsPageTest:verifyContactsLabel</h2>
+<div style="padding-left:3em">
+<p>invalid selector: Unable to locate an element with the xpath expression //div[@class=&apos;ui header item mb5 light-black&apos;]/div[1]/following::text()[contains(.,&apos;Contacts&apos;).text] because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//div[@class=&apos;ui header item mb5 light-black&apos;]/div[1]/following::text()[contains(.,&apos;Contacts&apos;).text]&apos; is not a valid XPath expression.
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;wenwens-macbook.lan&apos;, ip: &apos;fe80:0:0:0:c93:7e87:a962:22b%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.4&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: /var/folders/pg/q_tfq__s1fs...}, goog:chromeOptions: {debuggerAddress: localhost:55829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 35254de252ab7d49ac66f8028f0bd64a
+*** Element info: {Using=xpath, value=//div[@class=&apos;ui header item mb5 light-black&apos;]/div[1]/following::text()[contains(.,&apos;Contacts&apos;).text]}</p>
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br/>at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+<br/>at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+<br/>at com.sun.proxy.$Proxy9.findElement(Unknown Source)
+<br/>at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+<br/>at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+<br/>at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
+<br/>at com.crm.qa.pages.ContactsPage.verifyContactsLabel(ContactsPage.java:42)
+<br/>at com.crm.qa.testcases.ContactsPageTest.verifyContactsLabel(ContactsPageTest.java:37)
+<br/>35 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.crm.qa.testcases.LoginPageTest:loginPageTitleTest</h2>
+<div style="padding-left:3em">
+<p>expected [Cogmento CRM] but found [Free CRM #1 cloud software for any business large or small]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at com.crm.qa.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:27)
+<br/>35 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.crm.qa.testcases.LoginPageTest:loginTest</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;email&apos;]&quot;}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;wenwens-macbook.lan&apos;, ip: &apos;fe80:0:0:0:c93:7e87:a962:22b%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.4&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: /var/folders/pg/q_tfq__s1fs...}, goog:chromeOptions: {debuggerAddress: localhost:56086}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9d863fbdfc2b53ed58973c7c3a225943
+*** Element info: {Using=name, value=email}</p>
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+<br/>at org.openqa.selenium.By$ByName.findElement(By.java:284)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+<br/>at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+<br/>at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+<br/>at com.sun.proxy.$Proxy9.findElement(Unknown Source)
+<br/>at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+<br/>at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+<br/>at com.sun.proxy.$Proxy13.sendKeys(Unknown Source)
+<br/>at com.crm.qa.pages.LoginPage.login(LoginPage.java:30)
+<br/>at com.crm.qa.testcases.LoginPageTest.loginTest(LoginPageTest.java:32)
+<br/>35 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.crm.qa.testcases.UserHomePageTest:verifyCorrectUserNameTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.crm.qa.testcases.ContactsPageTest:selectContactsTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.crm.qa.testcases.ContactsPageTest:validateCreateNewContactTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>Norah</td>
+<td>X</td>
+<td>Apple</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.crm.qa.testcases.UserHomePageTest:verifyUserHomePageTitleTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.crm.qa.testcases.ContactsPageTest:openCreateNewContactsPageTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.crm.qa.testcases.ContactsPageTest:validateCreateNewContactTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>Sissey</td>
+<td>C</td>
+<td>linkedIn</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.crm.qa.testcases.ContactsPageTest:validateCreateNewContactTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>Daniel</td>
+<td>A</td>
+<td>Google</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.crm.qa.testcases.UserHomePageTest:verifyContactsLinkTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.crm.qa.testcases.OfficialUserHomePageTest:logoImageTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.crm.qa.testcases.ContactsPageTest:selectMultipleContactsTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.crm.qa.testcases.OfficialUserHomePageTest:officialHomePageTestTitleTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">com.crm.qa.testcases.OfficialUserHomePageTest:clickLogin</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">com.crm.qa.testcases.ContactsPageTest:validateCreateNewContactTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>Momo</td>
+<td>B</td>
+<td>Amazon</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
